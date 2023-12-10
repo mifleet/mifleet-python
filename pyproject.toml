@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mifleet-python"
+version = "0.1.0"
+description = ""
+authors = ["josericardopenase <josericardopenase@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0"
+djangorestframework = "^3.14.0"
+mypy = "^1.7.1"
+pydantic = "^2.5.2"
+markdown = "^3.5.1"
+django-filter = "^23.5"
+pillow = "^10.1.0"
+django-cors-headers = "^4.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
