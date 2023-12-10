@@ -90,6 +90,16 @@ django = ">=3.0"
 pytz = "*"
 
 [[package]]
+name = "djangorestframework-camel-case"
+version = "1.4.2"
+description = "Camel case JSON support for Django REST framework."
+optional = false
+python-versions = ">=3.5"
+files = [
+    {file = "djangorestframework-camel-case-1.4.2.tar.gz", hash = "sha256:cdae75846648abb6585c7470639a1d2fb064dc45f8e8b62aaa50be7f1a7a61f4"},
+]
+
+[[package]]
 name = "markdown"
 version = "3.5.1"
 description = "Python implementation of John Gruber's Markdown."
@@ -416,4 +426,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "cfccc069615f523d4d7c279467d0ebdd3e9b4f8071eca01dfa2b06cf9aec19bc"
+content-hash = "575edc56ef4d73a695da35cebd9f78a826888dcb2c55c745ac107810fdd6cd7f"
